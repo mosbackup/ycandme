@@ -5,19 +5,19 @@ const FORM_URL = "https://forms.gle/dTAVYgAb3ss9mbtY6";
 const steps = [
   {
     n: "01",
-    title: "Submit your startup",
-    body: "Share what you build, who you sell to, and your go-to-market motion. Takes under 5 minutes.",
+    title: "Tell us what you ship",
+    body: "Product, customers, GTM motion. Five minutes.",
     cta: true,
   },
   {
     n: "02",
-    title: "We analyze 6,000+ YC companies",
-    body: "We identify 10 high-potential YC partners with the same customers and complementary products — never competitors.",
+    title: "We map you against the YC network",
+    body: "10 YC companies with the same buyers and complementary products. Not competitors.",
   },
   {
     n: "03",
-    title: "Get founder contacts + playbook",
-    body: "Receive direct founder contacts plus a tailored outreach plan: warm intros, bundles, integrations, and revenue share structures.",
+    title: "Founder intros and a playbook",
+    body: "Direct contacts and a partnership plan: bundles, integrations, co-selling, revenue share.",
   },
 ];
 
@@ -29,8 +29,8 @@ export function Steps() {
           <p className="mb-3 font-mono text-xs uppercase tracking-wider text-primary">
             How it works
           </p>
-          <h2 className="text-3xl font-semibold text-foreground sm:text-4xl">
-            Three steps to your first YC partnership.
+          <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+            From submission to founder intro in days.
           </h2>
         </div>
 
@@ -52,7 +52,7 @@ export function Steps() {
                   rel="noopener noreferrer"
                   className="mt-5 inline-flex items-center gap-1 text-sm font-medium text-primary transition-colors hover:text-primary/80"
                 >
-                  Open submission form
+                  Submit your startup
                   <ArrowUpRight className="h-3.5 w-3.5" />
                 </a>
               )}

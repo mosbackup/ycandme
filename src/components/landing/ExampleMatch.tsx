@@ -5,9 +5,12 @@ export function ExampleMatch() {
         <p className="mb-3 font-mono text-xs uppercase tracking-wider text-primary">
           Example match
         </p>
-        <h2 className="text-3xl font-semibold text-foreground sm:text-4xl">
-          What a real partnership looks like.
+        <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+          What a match looks like.
         </h2>
+        <p className="mt-3 text-sm text-muted-foreground">
+          Same customers. Different products. One warm intro away from a deal.
+        </p>
       </div>
 
       <div className="overflow-hidden rounded-xl border border-border bg-card yc-shadow">
@@ -15,7 +18,7 @@ export function ExampleMatch() {
           <div className="p-8">
             <div className="mb-3 flex items-center gap-2">
               <span className="rounded-sm bg-primary/10 px-1.5 py-0.5 font-mono text-[10px] font-medium text-primary">
-                YC P26
+                YC S26
               </span>
             </div>
             <a
@@ -27,7 +30,7 @@ export function ExampleMatch() {
               Zibra Labs
             </a>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-              Large HPC clusters to run millions of backtests at scale.
+              HPC clusters for running millions of backtests.
             </p>
           </div>
 
@@ -58,26 +61,26 @@ export function ExampleMatch() {
         <div className="grid grid-cols-1 divide-y divide-border border-t border-border md:grid-cols-3 md:divide-x md:divide-y-0">
           <div className="p-6">
             <p className="font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
-              Same market
+              Shared buyer
             </p>
             <p className="mt-2 text-sm text-foreground">
-              Hedge funds &amp; quantitative trading firms
+              Quant funds and trading firms.
             </p>
           </div>
           <div className="p-6">
             <p className="font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
-              Complementary products
+              Fit
             </p>
             <p className="mt-2 text-sm text-foreground">
-              HPC infrastructure pairs with custom inference models
+              Inference workloads run on HPC. The stack composes.
             </p>
           </div>
           <div className="p-6">
             <p className="font-mono text-[11px] uppercase tracking-wider text-primary">
-              Collaboration
+              Motion
             </p>
             <p className="mt-2 text-sm text-foreground">
-              Deploy PiT-Inference LLMs at scale on Zibra Labs HPC infrastructure
+              Joint offering: PiT models deployed on Zibra clusters.
             </p>
           </div>
         </div>
