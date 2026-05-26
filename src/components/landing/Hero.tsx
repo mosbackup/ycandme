@@ -9,17 +9,12 @@ export function Hero() {
           Distribution infrastructure for startups
         </div>
 
-        <h1 className="text-balance text-4xl font-semibold leading-[1.05] text-foreground sm:text-5xl md:text-6xl">
-          Partner with <span className="text-primary">Y Combinator</span> startups.
+        <h1 className="text-balance text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl">
+          Your next distribution channel<br className="hidden sm:inline" /> is probably in <span className="text-primary">YC</span>.
         </h1>
 
-        <p className="mx-auto mt-6 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-          We identify YC companies that already serve your customers — and design win-win
-          partnership opportunities that help both sides grow.
-        </p>
-
-        <p className="mx-auto mt-4 max-w-2xl text-pretty text-sm font-medium text-foreground sm:text-base">
-          Leverage YC distribution networks — without being in YC.
+        <p className="mx-auto mt-6 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
+          We find YC companies that already sell to your customers, and introduce you to the founders.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -35,12 +30,12 @@ export function Hero() {
             href="#examples"
             className="inline-flex h-11 items-center justify-center rounded-md border border-border bg-card px-6 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
           >
-            See example partnerships
+            See example matches
           </a>
         </div>
 
         <p className="mt-8 font-mono text-xs text-muted-foreground">
-          AI-assisted. Manually curated. Quality over quantity.
+          10 relevant companies. Not 200 leads.
         </p>
       </div>
     </section>
