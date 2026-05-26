@@ -10,17 +10,17 @@ import { Footer } from "@/components/landing/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "YC and Me — Distribution infrastructure for startups" },
+      { title: "YC and Me — Partner with Y Combinator startups" },
       {
         name: "description",
         content:
-          "We find YC companies that already sell to your customers, and introduce you to the founders.",
+          "Leverage YC distribution networks without being in YC. We identify 10 high-potential Y Combinator partners with complementary products and design win-win GTM partnerships.",
       },
-      { property: "og:title", content: "YC and Me — Distribution infrastructure for startups" },
+      { property: "og:title", content: "YC and Me — Partner with Y Combinator startups" },
       {
         property: "og:description",
         content:
-          "Your next distribution channel is probably in YC. 10 matches, founder contacts, and an outreach plan.",
+          "Distribution infrastructure for startups. Get 10 curated YC partnership opportunities with founder contacts.",
       },
       { property: "og:type", content: "website" },
     ],
