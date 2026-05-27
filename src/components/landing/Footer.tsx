@@ -1,23 +1,22 @@
+import { Logo } from "./Logo";
+
 const FORM_URL = "https://forms.gle/dTAVYgAb3ss9mbtY6";
 
 export function Footer() {
   return (
     <footer className="border-t border-border">
       <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-6 py-10 sm:flex-row sm:items-center">
-        <div className="flex items-center gap-2">
-          <span className="flex h-6 w-6 items-center justify-center rounded-sm bg-primary font-mono text-xs font-bold text-primary-foreground">
-            Y
-          </span>
-          <span className="text-sm font-semibold text-foreground">
-            YC <span className="font-normal text-muted-foreground">and</span> Me
-          </span>
-          <span className="ml-3 text-xs text-muted-foreground">
+        <div className="flex items-center gap-3">
+          <Logo size={22} />
+          <span className="text-xs text-muted-foreground">
             Distribution infrastructure for startups
           </span>
         </div>
         <div className="flex items-center gap-6 text-xs text-muted-foreground">
-          <a href="#how" className="hover:text-foreground">How it works</a>
-          <a href="#examples" className="hover:text-foreground">Examples</a>
+          <a href="/#how" className="hover:text-foreground">How it works</a>
+          <a href="/#examples" className="hover:text-foreground">Examples</a>
+          <a href="/blog" className="hover:text-foreground">Blog</a>
+          <a href="/#contact" className="hover:text-foreground">Contact</a>
           <a href={FORM_URL} target="_blank" rel="noopener noreferrer" className="hover:text-foreground">
             Submit
           </a>

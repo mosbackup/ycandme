@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
+import { Link } from "@tanstack/react-router";
 import { ThemeToggle } from "./ThemeToggle";
+import { Logo } from "./Logo";
 
 const FORM_URL = "https://forms.gle/dTAVYgAb3ss9mbtY6";
+
 
 export function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -22,24 +25,22 @@ export function Nav() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-        <a href="#" className="flex items-center gap-2">
-          <span className="flex h-7 w-7 items-center justify-center rounded-sm bg-primary font-mono text-sm font-bold text-primary-foreground">
-            Y
-          </span>
-          <span className="text-[15px] font-semibold tracking-tight text-foreground">
-            YC <span className="text-muted-foreground font-normal">and</span> Me
-          </span>
-        </a>
+        <Link to="/" className="flex items-center">
+          <Logo />
+        </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
-          <a href="#how" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+          <a href="/#how" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
             How it Works
           </a>
-          <a href="#examples" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+          <a href="/#examples" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
             Example Matches
           </a>
-          <a href="#submit" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-            Submit
+          <Link to="/blog" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+            Blog
+          </Link>
+          <a href="/#contact" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+            Contact
           </a>
         </nav>
 

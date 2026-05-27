@@ -11,13 +11,13 @@ const steps = [
   },
   {
     n: "02",
-    title: "We analyze 6,000+ YC companies",
-    body: "We identify 10 high-potential YC partners with the same customers and complementary products — never competitors.",
+    title: "We select 10 potential YC partners for you",
+    body: "Among all YC companies, we select the best fit for you: same customers, complementary products, and never competitors.",
   },
   {
     n: "03",
-    title: "Get founder contacts + playbook",
-    body: "Receive direct founder contacts plus a tailored outreach plan: warm intros, bundles, integrations, and revenue share structures.",
+    title: "Get introduced to YC founders",
+    body: "Get introduced to YC founders, with a tailored GTM collaboration plan: warm intros, bundles, integrations, and revenue share structures.",
   },
 ];
 
