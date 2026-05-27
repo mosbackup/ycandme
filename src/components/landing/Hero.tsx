@@ -14,8 +14,8 @@ export function Hero() {
         </h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-          We identify YC companies that already serve your customers — and design win-win
-          partnership opportunities that help both sides grow.
+          Connect with YC companies having complementary products — and build win-win
+          partnerships.
         </p>
 
         <p className="mx-auto mt-4 max-w-2xl text-pretty text-sm font-medium text-foreground sm:text-base">

@@ -126,3 +126,20 @@
     font-family: var(--font-mono);
   }
 }
+
+@layer components {
+  .prose-yc { color: hsl(var(--foreground)); font-size: 1rem; line-height: 1.75; }
+  .prose-yc h1 { font-size: 2rem; font-weight: 600; margin: 2rem 0 1rem; line-height: 1.2; }
+  .prose-yc h2 { font-size: 1.5rem; font-weight: 600; margin: 2.5rem 0 0.75rem; }
+  .prose-yc h3 { font-size: 1.15rem; font-weight: 600; margin: 2rem 0 0.5rem; }
+  .prose-yc p { margin: 1rem 0; color: hsl(var(--muted-foreground)); }
+  .prose-yc a { color: hsl(var(--primary)); text-decoration: underline; text-underline-offset: 3px; }
+  .prose-yc ul, .prose-yc ol { margin: 1rem 0; padding-left: 1.5rem; color: hsl(var(--muted-foreground)); }
+  .prose-yc ul { list-style: disc; }
+  .prose-yc ol { list-style: decimal; }
+  .prose-yc li { margin: 0.25rem 0; }
+  .prose-yc strong { color: hsl(var(--foreground)); font-weight: 600; }
+  .prose-yc blockquote { margin: 1.5rem 0; padding-left: 1rem; border-left: 2px solid hsl(var(--primary)); color: hsl(var(--foreground)); font-style: italic; }
+  .prose-yc code { font-family: var(--font-mono); font-size: 0.9em; background: hsl(var(--secondary)); padding: 0.15em 0.35em; border-radius: 4px; }
+  .prose-yc hr { border: 0; border-top: 1px solid hsl(var(--border)); margin: 2.5rem 0; }
+}

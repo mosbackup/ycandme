@@ -5,6 +5,7 @@ import { Steps } from "@/components/landing/Steps";
 import { ExampleMatch } from "@/components/landing/ExampleMatch";
 import { ValueProps } from "@/components/landing/ValueProps";
 import { FinalCTA } from "@/components/landing/FinalCTA";
+import { Contact } from "@/components/landing/Contact";
 import { Footer } from "@/components/landing/Footer";
 
 export const Route = createFileRoute("/")({
@@ -38,6 +39,7 @@ function Index() {
         <ExampleMatch />
         <ValueProps />
         <FinalCTA />
+        <Contact />
       </main>
       <Footer />
     </div>
