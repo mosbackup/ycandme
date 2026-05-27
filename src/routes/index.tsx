@@ -4,6 +4,7 @@ import { Hero } from "@/components/landing/Hero";
 import { Steps } from "@/components/landing/Steps";
 import { ExampleMatch } from "@/components/landing/ExampleMatch";
 import { ValueProps } from "@/components/landing/ValueProps";
+import { FeaturedPosts } from "@/components/landing/FeaturedPosts";
 import { FinalCTA } from "@/components/landing/FinalCTA";
 import { Contact } from "@/components/landing/Contact";
 import { Footer } from "@/components/landing/Footer";
@@ -38,6 +39,7 @@ function Index() {
         <Steps />
         <ExampleMatch />
         <ValueProps />
+        <FeaturedPosts />
         <FinalCTA />
         <Contact />
       </main>
