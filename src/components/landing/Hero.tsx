@@ -12,7 +12,7 @@ export function Hero() {
 
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
           Get introduced to YC companies with complementary products 
-         <br>Build win-win partnerships
+           <br /> Build win-win partnerships
         </p>
 
 
