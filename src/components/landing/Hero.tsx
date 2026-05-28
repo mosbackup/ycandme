@@ -37,7 +37,7 @@ export function Hero() {
 
           <a
             href="#examples"
-            className="inline-flex h-11 items-center justify-center rounded-md border border-border px-6 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+            className="inline-flex h-11 items-center justify-center rounded-md border border-border bg-card px-6 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
           >
             See example partnerships
           </a>
