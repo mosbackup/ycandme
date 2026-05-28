@@ -125,7 +125,7 @@ function PostPage() {
                 <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time>
                 <span>·</span>
                 <span>{post.readingTime}</span>
-                {post.tags.map((t) => (
+                {post.tags.map((t: string) => (
                   <Link
                     key={t}
                     to="/blog"
@@ -194,7 +194,7 @@ function PostPage() {
                   Related posts
                 </p>
                 <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-                  {related.map((p) => (
+                  {related.map((p: import("@/lib/blog").Post) => (
                     <PostCard key={p.slug} post={p} />
                   ))}
                 </div>
