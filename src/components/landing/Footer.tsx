@@ -12,14 +12,8 @@ export function Footer() {
             Distribution infrastructure for startups
           </span>
         </div>
-        <div className="flex items-center gap-6 text-xs text-muted-foreground">
-          <a href="/#how" className="hover:text-foreground">How it works</a>
-          <a href="/#examples" className="hover:text-foreground">Examples</a>
-          <a href="/blog" className="hover:text-foreground">Blog</a>
-          <a href="/#contact" className="hover:text-foreground">Contact</a>
-          <a href={FORM_URL} target="_blank" rel="noopener noreferrer" className="hover:text-foreground">
-            Submit
-          </a>
+        <div className="text-xs text-muted-foreground">
+          Distribution infrastructure for startups.
         </div>
       </div>
       <div className="border-t border-border">
