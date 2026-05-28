@@ -2,8 +2,8 @@ import { Network, Target, Handshake, TrendingUp } from "lucide-react";
 
 const items = [
   { icon: Target, title: "Customer overlap", body: "Identify YC companies that already sell to your buyers." },
-  { icon: Handshake, title: "Win-win deals", body: "Designed for mutual upside — bundles, integrations, intros." },
-  { icon: Network, title: "Warm introductions", body: "Direct founder contacts, not cold LinkedIn outreach." },
+  { icon: Handshake, title: "Win-win deals", body: "Designed for mutual upside - bundles, integrations." },
+  { icon: Network, title: "Warm introductions", body: ".Both startups gain trusted access to each other’s customers through aligned partnerships." },
   { icon: TrendingUp, title: "GTM leverage", body: "Expand offerings and create real distribution flywheels." },
 ];
 
