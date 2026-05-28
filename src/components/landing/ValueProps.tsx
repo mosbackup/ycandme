@@ -4,7 +4,7 @@ const items = [
   { icon: Target, title: "Customer overlap", body: "Identify YC companies that already sell to your buyers." },
   { icon: Handshake, title: "Win-win deals", body: "Designed for mutual upside - bundles, integrations." },
   { icon: Network, title: "Warm introductions", body: "YC and non-YC startups gain trusted access to each other’s customers." },
-  { icon: TrendingUp, title: "GTM leverage", body: "Expand offerings and create real distribution flywheels." },
+  { icon: TrendingUp, title: "GTM leverage", body: "Expand offerings and create distribution flywheels." },
 ];
 
 export function ValueProps() {
