@@ -16,7 +16,7 @@ export function Hero() {
 
         {/* Supporting copy */}
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-          Find YC startups with same buyers, complementary products - never competitors.
+          Get introduced to YC startups with same buyers, complementary products - never competitors.
         </p>
 
         {/* Value proposition */}
