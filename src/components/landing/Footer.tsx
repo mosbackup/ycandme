@@ -1,7 +1,5 @@
 import { Logo } from "./Logo";
 
-const FORM_URL = "https://forms.gle/dTAVYgAb3ss9mbtY6";
-
 export function Footer() {
   return (
     <footer className="border-t border-border">
@@ -11,9 +9,6 @@ export function Footer() {
           <span className="text-xs text-muted-foreground">
             Distribution infrastructure for startups
           </span>
-        </div>
-        <div className="text-xs text-muted-foreground">
-          Distribution infrastructure for startups.
         </div>
       </div>
       <div className="border-t border-border">
