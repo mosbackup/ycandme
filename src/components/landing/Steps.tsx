@@ -12,12 +12,12 @@ const steps = [
   {
     n: "02",
     title: "We select 10 potential YC partners for you",
-    body: "Among all YC companies, we select the best fit for you: same customers, complementary products, and never competitors.",
+    body: "Among all YC companies, we select the best fits for you: same customers, complementary products - never competitors.",
   },
   {
     n: "03",
     title: "Get introduced to YC founders",
-    body: "Get introduced to YC founders, with a tailored GTM collaboration plan: warm intros, bundles, integrations, and revenue share structures.",
+    body: "Get a tailored GTM collaboration plan between selected YC startups and yours: warm intros, bundles, integrations, and revenue share structures.",
   },
 ];
 
@@ -30,7 +30,7 @@ export function Steps() {
             How it works
           </p>
           <h2 className="text-3xl font-semibold text-foreground sm:text-4xl">
-            Three steps to your first YC partnership.
+            Three steps to your first YC partnership:
           </h2>
         </div>
 
