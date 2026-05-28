@@ -20,9 +20,9 @@ export function Hero() {
         </p>
 
         {/* Value proposition */}
-        <p className="mt-3 text-lg font-medium text-primary sm:text-xl">
-          Build win-win partnerships.
-        </p>
+        <p className="mt-4 text-lg font-medium text-foreground sm:text-xl">
+  Build win-win partnerships.
+</p>
 
         {/* CTA buttons */}
         <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
