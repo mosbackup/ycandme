@@ -4,22 +4,19 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden">
       <div className="mx-auto max-w-4xl px-6 pt-20 pb-24 text-center md:pt-32 md:pb-32">
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
-          <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-          Distribution infrastructure for startups
-        </div>
+        
 
         <h1 className="text-balance text-4xl font-semibold leading-[1.05] text-foreground sm:text-5xl md:text-6xl">
-          Partner with <span className="text-primary">Y Combinator</span> startups.
+          Partner with <span className="text-primary">Y Combinator</span> startups
         </h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-          Get introduced to YC companies having complementary products — and build win-win
+          Get introduced to YC companies having complementary products - and build win-win
           partnerships.
         </p>
 
         <p className="mx-auto mt-4 max-w-2xl text-pretty text-sm font-medium text-foreground sm:text-base">
-          Leverage YC distribution networks — without being in YC.
+          Leverage YC network — without being in YC.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -39,9 +36,6 @@ export function Hero() {
           </a>
         </div>
 
-        <p className="mt-8 font-mono text-xs text-muted-foreground">
-          AI-assisted. Manually curated. Quality over quantity.
-        </p>
       </div>
     </section>
   );
