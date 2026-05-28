@@ -11,8 +11,8 @@ export function Hero() {
         </h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-          Get introduced to YC companies with complementary products - build win-win
-          partnerships.
+          Get introduced to YC companies with complementary products 
+         <br>Build win-win partnerships
         </p>
 
 
