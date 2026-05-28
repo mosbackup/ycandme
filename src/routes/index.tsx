@@ -16,7 +16,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Leverage YC distribution networks without being in YC. We identify 10 high-potential Y Combinator partners with complementary products and design win-win GTM partnerships.",
+          "Leverage YC network without being in YC. We identify 10 high-potential Y Combinator partners with complementary products and design win-win GTM partnerships.",
       },
       { property: "og:title", content: "YC and Me — Partner with Y Combinator startups" },
       {
@@ -39,7 +39,6 @@ function Index() {
         <Steps />
         <ExampleMatch />
         <ValueProps />
-        <FeaturedPosts />
         <FinalCTA />
         <Contact />
       </main>
