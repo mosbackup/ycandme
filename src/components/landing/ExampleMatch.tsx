@@ -6,7 +6,7 @@ export function ExampleMatch() {
           Example match
         </p>
         <h2 className="text-3xl font-semibold text-foreground sm:text-4xl">
-          What a real partnership looks like.
+          What a real partnership looks like:
         </h2>
       </div>
 
