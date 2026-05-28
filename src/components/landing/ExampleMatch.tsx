@@ -27,7 +27,7 @@ export function ExampleMatch() {
               Zibra Labs
             </a>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-              Large HPC clusters to run millions of backtests at scale.
+              Large HPC clusters to run millions of backtests at scale for algorithmic trading.
             </p>
           </div>
 
@@ -50,7 +50,7 @@ export function ExampleMatch() {
               PiT-Inference
             </a>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-              Custom LLMs for backtesting.
+              Custom LLMs for backtesting in algorithmic trading.
             </p>
           </div>
         </div>
