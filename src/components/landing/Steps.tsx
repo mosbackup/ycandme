@@ -6,7 +6,7 @@ const steps = [
   {
     n: "01",
     title: "Submit your startup",
-    body: "Share what you build, who you sell to, and your go-to-market motion. Takes under 5 minutes.",
+    body: "Share what you build, who you sell to, and your go-to-market motion.",
     cta: true,
   },
   {
