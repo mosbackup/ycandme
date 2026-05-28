@@ -4,11 +4,10 @@ export function FinalCTA() {
   return (
     <section id="submit" className="mx-auto max-w-4xl px-6 py-24 text-center md:py-32">
       <h2 className="text-balance text-3xl font-semibold leading-tight text-foreground sm:text-5xl">
-        Leverage YC distribution —<br className="hidden sm:inline" /> without being in YC.
+        Leverage YC network -<br className="hidden sm:inline" /> without being in YC.
       </h2>
       <p className="mx-auto mt-5 max-w-xl text-base text-muted-foreground">
-        Submit your startup and receive 10 curated YC partnership opportunities with founder
-        contacts and an outreach playbook.
+        Submit your startup and receive 10 curated YC partnership opportunities with a GTM playbook.
       </p>
       <div className="mt-9">
         <a
@@ -20,9 +19,6 @@ export function FinalCTA() {
           Submit your startup
         </a>
       </div>
-      <p className="mt-6 font-mono text-xs text-muted-foreground">
-        Quality over quantity · Manually curated · Reviewed within days
-      </p>
     </section>
   );
 }
