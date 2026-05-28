@@ -15,9 +15,6 @@ export function Hero() {
           partnerships.
         </p>
 
-        <p className="mx-auto mt-4 max-w-2xl text-pretty text-sm font-medium text-foreground sm:text-base">
-          Leverage YC network — without being in YC.
-        </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <a
