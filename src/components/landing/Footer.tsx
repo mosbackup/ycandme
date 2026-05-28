@@ -11,7 +11,7 @@ export function Footer() {
       </div>
       <div className="border-t border-border">
         <div className="mx-auto max-w-6xl px-6 py-4 font-mono text-[11px] text-muted-foreground">
-          © {new Date().getFullYear()} YC and Me · Distribution infrastructure for YC startups.
+          © {new Date().getFullYear()} YC and Me · Distribution infrastructure for Y Combinator startups.
         </div>
       </div>
     </footer>
