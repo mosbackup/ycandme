@@ -7,7 +7,7 @@ export function FinalCTA() {
         Leverage YC network -<br className="hidden sm:inline" /> without being in YC.
       </h2>
       <p className="mx-auto mt-5 max-w-xl text-base text-muted-foreground">
-        Submit your startup and receive 10 curated YC partnership opportunities with a GTM playbook.
+        Apply to receive 10 curated YC partnership opportunities with a GTM playbook.
       </p>
       <div className="mt-9">
         <a
@@ -16,7 +16,7 @@ export function FinalCTA() {
           rel="noopener noreferrer"
           className="inline-flex h-11 items-center justify-center rounded-md bg-primary px-7 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
         >
-          Submit your startup
+          Apply
         </a>
       </div>
     </section>
