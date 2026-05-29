@@ -32,7 +32,7 @@ export function Hero() {
             rel="noopener noreferrer"
             className="inline-flex h-11 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
           >
-            Submit your startup
+            Apply 
           </a>
 
           <a
